@@ -1,0 +1,171 @@
+{
+  "module0": {
+    "nodes": [
+      {
+        "id": "226e1f2cb9289b7c",
+        "name": "ConvertToShaderNode",
+        "data": {}
+      },
+      {
+        "id": "ce186d2d700897f3",
+        "name": "SetMaterial",
+        "data": {
+          "material": 2
+        }
+      },
+      {
+        "id": "f925348cb1b749a6",
+        "name": "ApplyHeight",
+        "data": {
+          "height": 0.5
+        }
+      },
+      {
+        "id": "e8f143b23fdc3313",
+        "name": "LinkedHeightField3D",
+        "data": {}
+      },
+      {
+        "id": "d3e67429da16e907",
+        "name": "Plane3D",
+        "data": {
+          "origin_$_0": 0,
+          "origin_$_1": 0,
+          "origin_$_2": 0,
+          "normal_$_0": 0,
+          "normal_$_1": 1,
+          "normal_$_2": 0
+        }
+      },
+      {
+        "id": "34d4a19676023621",
+        "name": "Rectangle2D",
+        "data": {
+          "size_$_0": 0.5,
+          "size_$_1": 0.5
+        }
+      },
+      {
+        "id": "4af2b52cfdab2c2d",
+        "name": "ConvertToShaderNode",
+        "data": {}
+      },
+      {
+        "id": "044951fb6b43eba5",
+        "name": "ApplyHeight",
+        "data": {
+          "height": 0.5
+        }
+      },
+      {
+        "id": "3a68292a9524793f",
+        "name": "SetMaterial",
+        "data": {
+          "material": 3
+        }
+      },
+      {
+        "id": "fbcece3275fe37b0",
+        "name": "Plane3D",
+        "data": {
+          "origin_$_0": 0,
+          "origin_$_1": 0,
+          "origin_$_2": 0,
+          "normal_$_0": 0,
+          "normal_$_1": 1,
+          "normal_$_2": 0
+        }
+      },
+      {
+        "id": "b123f54e29197df5",
+        "name": "LinkedHeightField3D",
+        "data": {}
+      },
+      {
+        "id": "11dedcba14584f0d",
+        "name": "Translate3D",
+        "data": {
+          "param_$_0": 1,
+          "param_$_1": 0,
+          "param_$_2": 1
+        }
+      },
+      {
+        "id": "87afc1e6cb5bcb97",
+        "name": "Rectangle2D",
+        "data": {
+          "size_$_0": 0.5,
+          "size_$_1": 0.5
+        }
+      }
+    ],
+    "connections": [
+      {
+        "source": "ce186d2d700897f3",
+        "sourceOutput": "expr",
+        "target": "226e1f2cb9289b7c",
+        "targetInput": "expr"
+      },
+      {
+        "source": "e8f143b23fdc3313",
+        "sourceOutput": "expr",
+        "target": "ce186d2d700897f3",
+        "targetInput": "expr"
+      },
+      {
+        "source": "f925348cb1b749a6",
+        "sourceOutput": "expr",
+        "target": "e8f143b23fdc3313",
+        "targetInput": "apply_height"
+      },
+      {
+        "source": "d3e67429da16e907",
+        "sourceOutput": "expr",
+        "target": "e8f143b23fdc3313",
+        "targetInput": "plane"
+      },
+      {
+        "source": "34d4a19676023621",
+        "sourceOutput": "expr",
+        "target": "f925348cb1b749a6",
+        "targetInput": "expr"
+      },
+      {
+        "source": "3a68292a9524793f",
+        "sourceOutput": "expr",
+        "target": "4af2b52cfdab2c2d",
+        "targetInput": "expr"
+      },
+      {
+        "source": "fbcece3275fe37b0",
+        "sourceOutput": "expr",
+        "target": "b123f54e29197df5",
+        "targetInput": "plane"
+      },
+      {
+        "source": "044951fb6b43eba5",
+        "sourceOutput": "expr",
+        "target": "b123f54e29197df5",
+        "targetInput": "apply_height"
+      },
+      {
+        "source": "b123f54e29197df5",
+        "sourceOutput": "expr",
+        "target": "11dedcba14584f0d",
+        "targetInput": "expr"
+      },
+      {
+        "source": "11dedcba14584f0d",
+        "sourceOutput": "expr",
+        "target": "3a68292a9524793f",
+        "targetInput": "expr"
+      },
+      {
+        "source": "87afc1e6cb5bcb97",
+        "sourceOutput": "expr",
+        "target": "044951fb6b43eba5",
+        "targetInput": "expr"
+      }
+    ]
+  }
+}
