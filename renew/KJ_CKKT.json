@@ -1,0 +1,1284 @@
+{
+  "moduleList": {
+    "base": {
+      "nodes": [
+        {
+          "id": "759756b0a93c59e4",
+          "name": "Rectangle2D",
+          "data": {
+            "size": [
+              2,
+              0.8
+            ]
+          }
+        },
+        {
+          "id": "8c4f761aa4adc8cd",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "mat_1",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "ddb014729ec7c645",
+          "name": "Plane3D",
+          "data": {
+            "origin": [
+              -0.6,
+              0,
+              0
+            ],
+            "normal": [
+              0,
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "id": "5a2a512ce9d0614a",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              2
+            ]
+          }
+        },
+        {
+          "id": "5e6136a4d9d16b05",
+          "name": "ApplyHeight",
+          "data": {
+            "height": [
+              3
+            ]
+          }
+        },
+        {
+          "id": "3dc68f536f28b973",
+          "name": "LinkedHeightField3D",
+          "data": {}
+        },
+        {
+          "id": "d14349ae44ca9bf3",
+          "name": "Plane3D",
+          "data": {
+            "origin": [
+              0,
+              0,
+              -0.6
+            ],
+            "normal": [
+              0,
+              1,
+              0
+            ]
+          }
+        },
+        {
+          "id": "3046bcac773e9e49",
+          "name": "Rectangle2D",
+          "data": {
+            "size": [
+              0.8,
+              2
+            ]
+          }
+        },
+        {
+          "id": "a998afee1d931c86",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "mat_2",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "dc98d2e4cb2063c7",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              3
+            ]
+          }
+        },
+        {
+          "id": "f971e5040ed817d3",
+          "name": "LinkedHeightField3D",
+          "data": {}
+        },
+        {
+          "id": "d1743d26218bb56d",
+          "name": "ApplyHeight",
+          "data": {
+            "height": [
+              3
+            ]
+          }
+        },
+        {
+          "id": "105a6498b1500f6f",
+          "name": "NamedGeometry",
+          "data": {
+            "name": "main_1"
+          }
+        },
+        {
+          "id": "81f9237304b7dd10",
+          "name": "NamedGeometry",
+          "data": {
+            "name": "main_2"
+          }
+        },
+        {
+          "id": "2ac9881ecebe0fc8",
+          "name": "RegisterState",
+          "data": {
+            "state": [
+              1
+            ]
+          }
+        },
+        {
+          "id": "0a1b015b8ced6c5d",
+          "name": "Union",
+          "data": {}
+        },
+        {
+          "id": "33b3983c902c8b4f",
+          "name": "MarkerNode",
+          "data": {}
+        },
+        {
+          "id": "18aac148cc36bd52",
+          "name": "MarkerNode",
+          "data": {}
+        },
+        {
+          "id": "4e058a75cb82cce9",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "main_1",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "11a9ac9efa98529c",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "main_2",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "ae8a1721a28b7bb6",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              2
+            ]
+          }
+        },
+        {
+          "id": "a750c64bb6b3302c",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              3
+            ]
+          }
+        },
+        {
+          "id": "88967692f7e9a59c",
+          "name": "Difference",
+          "data": {}
+        },
+        {
+          "id": "3b38fee359f7a38b",
+          "name": "Difference",
+          "data": {}
+        },
+        {
+          "id": "6ba90b60e5af4081",
+          "name": "Union",
+          "data": {}
+        },
+        {
+          "id": "f186f2dd38a02825",
+          "name": "LinkedHeightField3D",
+          "data": {}
+        },
+        {
+          "id": "3d558d538bddbfbf",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "subtr_1_1",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "516b7338d56649d0",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              4
+            ]
+          }
+        },
+        {
+          "id": "97efad9948937283",
+          "name": "ApplyHeight",
+          "data": {
+            "height": [
+              0.5
+            ]
+          }
+        },
+        {
+          "id": "825ff5ad8b90d141",
+          "name": "Plane3D",
+          "data": {
+            "origin": [
+              0,
+              3.1,
+              0
+            ],
+            "normal": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        {
+          "id": "e8f5b65434886441",
+          "name": "PolyLine2D",
+          "data": {
+            "points": [
+              [
+                -0.7,
+                -0.7,
+                0
+              ],
+              [
+                0.7,
+                -0.7,
+                0
+              ],
+              [
+                0.7,
+                0.7,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "ec7436f558d55b74",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "subtr_1_2",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "7d0a5fd4007b8dd0",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              4
+            ]
+          }
+        },
+        {
+          "id": "de11e02165207b50",
+          "name": "LinkedHeightField3D",
+          "data": {}
+        },
+        {
+          "id": "b000b3a1de59220a",
+          "name": "ApplyHeight",
+          "data": {
+            "height": [
+              0.6
+            ]
+          }
+        },
+        {
+          "id": "da778bc174e0a493",
+          "name": "Plane3D",
+          "data": {
+            "origin": [
+              0,
+              0,
+              0.6
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ]
+          }
+        },
+        {
+          "id": "9cbd0f7587bad802",
+          "name": "Rectangle2D",
+          "data": {
+            "size": [
+              2.802,
+              1
+            ]
+          }
+        },
+        {
+          "id": "ba2d313bb68cfb55",
+          "name": "Translate2D",
+          "data": {
+            "param": [
+              1.2,
+              0.1
+            ]
+          }
+        },
+        {
+          "id": "8ad0eaa64741e531",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "subtr_1_3",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "ae9db96307a4ee71",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              4
+            ]
+          }
+        },
+        {
+          "id": "1b7add38380590f6",
+          "name": "LinkedHeightField3D",
+          "data": {}
+        },
+        {
+          "id": "e1d2da02283bdca8",
+          "name": "ApplyHeight",
+          "data": {
+            "height": [
+              1.1
+            ]
+          }
+        },
+        {
+          "id": "1164745fc5f29b56",
+          "name": "Union",
+          "data": {}
+        },
+        {
+          "id": "c8f929328de90f0b",
+          "name": "Rectangle2D",
+          "data": {
+            "size": [
+              0.502,
+              1
+            ]
+          }
+        },
+        {
+          "id": "3b88d29e901d40b0",
+          "name": "Translate2D",
+          "data": {
+            "param": [
+              1.55,
+              0.1
+            ]
+          }
+        },
+        {
+          "id": "efaa31520e357c09",
+          "name": "Rectangle2D",
+          "data": {
+            "size": [
+              0.702,
+              1
+            ]
+          }
+        },
+        {
+          "id": "35010c6662bc2eca",
+          "name": "Translate2D",
+          "data": {
+            "param": [
+              0.15,
+              0.1
+            ]
+          }
+        },
+        {
+          "id": "32d9a5e8fb6bb65a",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "subtr_2_1",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "6fb40c78543ac4a5",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              4
+            ]
+          }
+        },
+        {
+          "id": "956efc2327bd879d",
+          "name": "LinkedHeightField3D",
+          "data": {}
+        },
+        {
+          "id": "9437809f42e3558a",
+          "name": "ApplyHeight",
+          "data": {
+            "height": [
+              0.5
+            ]
+          }
+        },
+        {
+          "id": "c5e693780e16420d",
+          "name": "PolyLine2D",
+          "data": {
+            "points": [
+              [
+                -0.7,
+                -0.7,
+                0
+              ],
+              [
+                -0.7,
+                0.7,
+                0
+              ],
+              [
+                0.7,
+                0.7,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "id": "c20962dd75add786",
+          "name": "Union",
+          "data": {}
+        },
+        {
+          "id": "cd98b1a293b7aaee",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "subtr_2_2",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "92ba96d2147d2ed7",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              4
+            ]
+          }
+        },
+        {
+          "id": "fc95e9cb5153424a",
+          "name": "LinkedHeightField3D",
+          "data": {}
+        },
+        {
+          "id": "dc23e150ff85b5da",
+          "name": "ApplyHeight",
+          "data": {
+            "height": [
+              1.2
+            ]
+          }
+        },
+        {
+          "id": "919f5ebc5974a194",
+          "name": "Plane3D",
+          "data": {
+            "origin": [
+              0.6,
+              0,
+              0
+            ],
+            "normal": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "374cdc8584875a23",
+          "name": "Rectangle2D",
+          "data": {
+            "size": [
+              0.8,
+              0.4
+            ]
+          }
+        },
+        {
+          "id": "be55b90993aa9932",
+          "name": "Translate2D",
+          "data": {
+            "param": [
+              -0.9,
+              -0.2
+            ]
+          }
+        },
+        {
+          "id": "bd02072ed3c7397b",
+          "name": "Union",
+          "data": {}
+        },
+        {
+          "id": "916cc9b3976faa78",
+          "name": "Translate2D",
+          "data": {
+            "param": [
+              -2.2,
+              -0.2
+            ]
+          }
+        },
+        {
+          "id": "25bf52ef1f9646ec",
+          "name": "RegisterState",
+          "data": {
+            "state": [
+              0
+            ]
+          }
+        },
+        {
+          "id": "68f17fbd846626a6",
+          "name": "Translate3D",
+          "data": {
+            "param": [
+              -1,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "c5012aad9fb1f548",
+          "name": "Union",
+          "data": {}
+        }
+      ],
+      "connections": [
+        {
+          "source": "5e6136a4d9d16b05",
+          "sourceOutput": "expr",
+          "target": "3dc68f536f28b973",
+          "targetInput": "apply_height"
+        },
+        {
+          "source": "ddb014729ec7c645",
+          "sourceOutput": "expr",
+          "target": "3dc68f536f28b973",
+          "targetInput": "plane"
+        },
+        {
+          "source": "3dc68f536f28b973",
+          "sourceOutput": "expr",
+          "target": "5a2a512ce9d0614a",
+          "targetInput": "expr"
+        },
+        {
+          "source": "5a2a512ce9d0614a",
+          "sourceOutput": "expr",
+          "target": "8c4f761aa4adc8cd",
+          "targetInput": "expr"
+        },
+        {
+          "source": "d1743d26218bb56d",
+          "sourceOutput": "expr",
+          "target": "f971e5040ed817d3",
+          "targetInput": "apply_height"
+        },
+        {
+          "source": "d14349ae44ca9bf3",
+          "sourceOutput": "expr",
+          "target": "f971e5040ed817d3",
+          "targetInput": "plane"
+        },
+        {
+          "source": "f971e5040ed817d3",
+          "sourceOutput": "expr",
+          "target": "dc98d2e4cb2063c7",
+          "targetInput": "expr"
+        },
+        {
+          "source": "dc98d2e4cb2063c7",
+          "sourceOutput": "expr",
+          "target": "a998afee1d931c86",
+          "targetInput": "expr"
+        },
+        {
+          "source": "0a1b015b8ced6c5d",
+          "sourceOutput": "expr",
+          "target": "2ac9881ecebe0fc8",
+          "targetInput": "expr"
+        },
+        {
+          "source": "759756b0a93c59e4",
+          "sourceOutput": "expr",
+          "target": "33b3983c902c8b4f",
+          "targetInput": "expr"
+        },
+        {
+          "source": "33b3983c902c8b4f",
+          "sourceOutput": "expr",
+          "target": "5e6136a4d9d16b05",
+          "targetInput": "expr"
+        },
+        {
+          "source": "3046bcac773e9e49",
+          "sourceOutput": "expr",
+          "target": "18aac148cc36bd52",
+          "targetInput": "expr"
+        },
+        {
+          "source": "18aac148cc36bd52",
+          "sourceOutput": "expr",
+          "target": "d1743d26218bb56d",
+          "targetInput": "expr"
+        },
+        {
+          "source": "ae8a1721a28b7bb6",
+          "sourceOutput": "expr",
+          "target": "4e058a75cb82cce9",
+          "targetInput": "expr"
+        },
+        {
+          "source": "a750c64bb6b3302c",
+          "sourceOutput": "expr",
+          "target": "11a9ac9efa98529c",
+          "targetInput": "expr"
+        },
+        {
+          "source": "3dc68f536f28b973",
+          "sourceOutput": "expr",
+          "target": "88967692f7e9a59c",
+          "targetInput": "expr1"
+        },
+        {
+          "source": "88967692f7e9a59c",
+          "sourceOutput": "expr",
+          "target": "ae8a1721a28b7bb6",
+          "targetInput": "expr"
+        },
+        {
+          "source": "f971e5040ed817d3",
+          "sourceOutput": "expr",
+          "target": "3b38fee359f7a38b",
+          "targetInput": "expr1"
+        },
+        {
+          "source": "3b38fee359f7a38b",
+          "sourceOutput": "expr",
+          "target": "a750c64bb6b3302c",
+          "targetInput": "expr"
+        },
+        {
+          "source": "6ba90b60e5af4081",
+          "sourceOutput": "expr",
+          "target": "88967692f7e9a59c",
+          "targetInput": "expr2"
+        },
+        {
+          "source": "516b7338d56649d0",
+          "sourceOutput": "expr",
+          "target": "3d558d538bddbfbf",
+          "targetInput": "expr"
+        },
+        {
+          "source": "97efad9948937283",
+          "sourceOutput": "expr",
+          "target": "f186f2dd38a02825",
+          "targetInput": "apply_height"
+        },
+        {
+          "source": "825ff5ad8b90d141",
+          "sourceOutput": "expr",
+          "target": "f186f2dd38a02825",
+          "targetInput": "plane"
+        },
+        {
+          "source": "e8f5b65434886441",
+          "sourceOutput": "expr",
+          "target": "97efad9948937283",
+          "targetInput": "expr"
+        },
+        {
+          "source": "f186f2dd38a02825",
+          "sourceOutput": "expr",
+          "target": "516b7338d56649d0",
+          "targetInput": "expr"
+        },
+        {
+          "source": "f186f2dd38a02825",
+          "sourceOutput": "expr",
+          "target": "6ba90b60e5af4081",
+          "targetInput": "expr"
+        },
+        {
+          "source": "7d0a5fd4007b8dd0",
+          "sourceOutput": "expr",
+          "target": "ec7436f558d55b74",
+          "targetInput": "expr"
+        },
+        {
+          "source": "b000b3a1de59220a",
+          "sourceOutput": "expr",
+          "target": "de11e02165207b50",
+          "targetInput": "apply_height"
+        },
+        {
+          "source": "de11e02165207b50",
+          "sourceOutput": "expr",
+          "target": "7d0a5fd4007b8dd0",
+          "targetInput": "expr"
+        },
+        {
+          "source": "9cbd0f7587bad802",
+          "sourceOutput": "expr",
+          "target": "ba2d313bb68cfb55",
+          "targetInput": "expr"
+        },
+        {
+          "source": "ba2d313bb68cfb55",
+          "sourceOutput": "expr",
+          "target": "b000b3a1de59220a",
+          "targetInput": "expr"
+        },
+        {
+          "source": "da778bc174e0a493",
+          "sourceOutput": "expr",
+          "target": "de11e02165207b50",
+          "targetInput": "plane"
+        },
+        {
+          "source": "de11e02165207b50",
+          "sourceOutput": "expr",
+          "target": "6ba90b60e5af4081",
+          "targetInput": "expr"
+        },
+        {
+          "source": "ae9db96307a4ee71",
+          "sourceOutput": "expr",
+          "target": "8ad0eaa64741e531",
+          "targetInput": "expr"
+        },
+        {
+          "source": "e1d2da02283bdca8",
+          "sourceOutput": "expr",
+          "target": "1b7add38380590f6",
+          "targetInput": "apply_height"
+        },
+        {
+          "source": "1b7add38380590f6",
+          "sourceOutput": "expr",
+          "target": "ae9db96307a4ee71",
+          "targetInput": "expr"
+        },
+        {
+          "source": "da778bc174e0a493",
+          "sourceOutput": "expr",
+          "target": "1b7add38380590f6",
+          "targetInput": "plane"
+        },
+        {
+          "source": "1164745fc5f29b56",
+          "sourceOutput": "expr",
+          "target": "e1d2da02283bdca8",
+          "targetInput": "expr"
+        },
+        {
+          "source": "c8f929328de90f0b",
+          "sourceOutput": "expr",
+          "target": "3b88d29e901d40b0",
+          "targetInput": "expr"
+        },
+        {
+          "source": "3b88d29e901d40b0",
+          "sourceOutput": "expr",
+          "target": "1164745fc5f29b56",
+          "targetInput": "expr"
+        },
+        {
+          "source": "efaa31520e357c09",
+          "sourceOutput": "expr",
+          "target": "35010c6662bc2eca",
+          "targetInput": "expr"
+        },
+        {
+          "source": "35010c6662bc2eca",
+          "sourceOutput": "expr",
+          "target": "1164745fc5f29b56",
+          "targetInput": "expr"
+        },
+        {
+          "source": "1b7add38380590f6",
+          "sourceOutput": "expr",
+          "target": "6ba90b60e5af4081",
+          "targetInput": "expr"
+        },
+        {
+          "source": "6fb40c78543ac4a5",
+          "sourceOutput": "expr",
+          "target": "32d9a5e8fb6bb65a",
+          "targetInput": "expr"
+        },
+        {
+          "source": "825ff5ad8b90d141",
+          "sourceOutput": "expr",
+          "target": "956efc2327bd879d",
+          "targetInput": "plane"
+        },
+        {
+          "source": "9437809f42e3558a",
+          "sourceOutput": "expr",
+          "target": "956efc2327bd879d",
+          "targetInput": "apply_height"
+        },
+        {
+          "source": "956efc2327bd879d",
+          "sourceOutput": "expr",
+          "target": "6fb40c78543ac4a5",
+          "targetInput": "expr"
+        },
+        {
+          "source": "c5e693780e16420d",
+          "sourceOutput": "expr",
+          "target": "9437809f42e3558a",
+          "targetInput": "expr"
+        },
+        {
+          "source": "956efc2327bd879d",
+          "sourceOutput": "expr",
+          "target": "c20962dd75add786",
+          "targetInput": "expr"
+        },
+        {
+          "source": "c20962dd75add786",
+          "sourceOutput": "expr",
+          "target": "3b38fee359f7a38b",
+          "targetInput": "expr2"
+        },
+        {
+          "source": "92ba96d2147d2ed7",
+          "sourceOutput": "expr",
+          "target": "cd98b1a293b7aaee",
+          "targetInput": "expr"
+        },
+        {
+          "source": "dc23e150ff85b5da",
+          "sourceOutput": "expr",
+          "target": "fc95e9cb5153424a",
+          "targetInput": "apply_height"
+        },
+        {
+          "source": "fc95e9cb5153424a",
+          "sourceOutput": "expr",
+          "target": "92ba96d2147d2ed7",
+          "targetInput": "expr"
+        },
+        {
+          "source": "919f5ebc5974a194",
+          "sourceOutput": "expr",
+          "target": "fc95e9cb5153424a",
+          "targetInput": "plane"
+        },
+        {
+          "source": "374cdc8584875a23",
+          "sourceOutput": "expr",
+          "target": "be55b90993aa9932",
+          "targetInput": "expr"
+        },
+        {
+          "source": "be55b90993aa9932",
+          "sourceOutput": "expr",
+          "target": "bd02072ed3c7397b",
+          "targetInput": "expr"
+        },
+        {
+          "source": "374cdc8584875a23",
+          "sourceOutput": "expr",
+          "target": "916cc9b3976faa78",
+          "targetInput": "expr"
+        },
+        {
+          "source": "916cc9b3976faa78",
+          "sourceOutput": "expr",
+          "target": "bd02072ed3c7397b",
+          "targetInput": "expr"
+        },
+        {
+          "source": "bd02072ed3c7397b",
+          "sourceOutput": "expr",
+          "target": "dc23e150ff85b5da",
+          "targetInput": "expr"
+        },
+        {
+          "source": "fc95e9cb5153424a",
+          "sourceOutput": "expr",
+          "target": "c20962dd75add786",
+          "targetInput": "expr"
+        },
+        {
+          "source": "105a6498b1500f6f",
+          "sourceOutput": "expr",
+          "target": "0a1b015b8ced6c5d",
+          "targetInput": "expr"
+        },
+        {
+          "source": "81f9237304b7dd10",
+          "sourceOutput": "expr",
+          "target": "0a1b015b8ced6c5d",
+          "targetInput": "expr"
+        },
+        {
+          "source": "c5012aad9fb1f548",
+          "sourceOutput": "expr",
+          "target": "25bf52ef1f9646ec",
+          "targetInput": "expr"
+        },
+        {
+          "source": "105a6498b1500f6f",
+          "sourceOutput": "expr",
+          "target": "c5012aad9fb1f548",
+          "targetInput": "expr"
+        },
+        {
+          "source": "81f9237304b7dd10",
+          "sourceOutput": "expr",
+          "target": "68f17fbd846626a6",
+          "targetInput": "expr"
+        },
+        {
+          "source": "68f17fbd846626a6",
+          "sourceOutput": "expr",
+          "target": "c5012aad9fb1f548",
+          "targetInput": "expr"
+        }
+      ],
+      "positions": {
+        "759756b0a93c59e4": {
+          "x": 920,
+          "y": 540
+        },
+        "8c4f761aa4adc8cd": {
+          "x": 1400,
+          "y": 140
+        },
+        "ddb014729ec7c645": {
+          "x": 920,
+          "y": 140
+        },
+        "5a2a512ce9d0614a": {
+          "x": 1400,
+          "y": 520
+        },
+        "5e6136a4d9d16b05": {
+          "x": 1160,
+          "y": 340
+        },
+        "3dc68f536f28b973": {
+          "x": 1160,
+          "y": 140
+        },
+        "d14349ae44ca9bf3": {
+          "x": 2000,
+          "y": 160
+        },
+        "3046bcac773e9e49": {
+          "x": 2000,
+          "y": 560
+        },
+        "a998afee1d931c86": {
+          "x": 2520,
+          "y": 160
+        },
+        "dc98d2e4cb2063c7": {
+          "x": 2520,
+          "y": 540
+        },
+        "f971e5040ed817d3": {
+          "x": 2260,
+          "y": 160
+        },
+        "d1743d26218bb56d": {
+          "x": 2260,
+          "y": 420
+        },
+        "105a6498b1500f6f": {
+          "x": -680,
+          "y": -140
+        },
+        "81f9237304b7dd10": {
+          "x": -680,
+          "y": 80
+        },
+        "2ac9881ecebe0fc8": {
+          "x": -40,
+          "y": -120
+        },
+        "0a1b015b8ced6c5d": {
+          "x": -300,
+          "y": -100
+        },
+        "33b3983c902c8b4f": {
+          "x": 1160,
+          "y": 580
+        },
+        "18aac148cc36bd52": {
+          "x": 2260,
+          "y": 640
+        },
+        "4e058a75cb82cce9": {
+          "x": 1520,
+          "y": 1020
+        },
+        "11a9ac9efa98529c": {
+          "x": 2640,
+          "y": 1140
+        },
+        "ae8a1721a28b7bb6": {
+          "x": 1500,
+          "y": 1400
+        },
+        "a750c64bb6b3302c": {
+          "x": 2640,
+          "y": 1520
+        },
+        "88967692f7e9a59c": {
+          "x": 1220,
+          "y": 1080
+        },
+        "3b38fee359f7a38b": {
+          "x": 2380,
+          "y": 1180
+        },
+        "6ba90b60e5af4081": {
+          "x": 960,
+          "y": 1360
+        },
+        "f186f2dd38a02825": {
+          "x": -100,
+          "y": 1500
+        },
+        "3d558d538bddbfbf": {
+          "x": 260,
+          "y": 1500
+        },
+        "516b7338d56649d0": {
+          "x": 260,
+          "y": 1880
+        },
+        "97efad9948937283": {
+          "x": -100,
+          "y": 1740
+        },
+        "825ff5ad8b90d141": {
+          "x": -380,
+          "y": 1500
+        },
+        "e8f5b65434886441": {
+          "x": -580,
+          "y": 1960
+        },
+        "ec7436f558d55b74": {
+          "x": 1220,
+          "y": 1880
+        },
+        "7d0a5fd4007b8dd0": {
+          "x": 1220,
+          "y": 2260
+        },
+        "de11e02165207b50": {
+          "x": 940,
+          "y": 1880
+        },
+        "b000b3a1de59220a": {
+          "x": 940,
+          "y": 2120
+        },
+        "da778bc174e0a493": {
+          "x": -460,
+          "y": 2440
+        },
+        "9cbd0f7587bad802": {
+          "x": 400,
+          "y": 2340
+        },
+        "ba2d313bb68cfb55": {
+          "x": 660,
+          "y": 2300
+        },
+        "8ad0eaa64741e531": {
+          "x": 100,
+          "y": 2440
+        },
+        "ae9db96307a4ee71": {
+          "x": 100,
+          "y": 2820
+        },
+        "1b7add38380590f6": {
+          "x": -180,
+          "y": 2460
+        },
+        "e1d2da02283bdca8": {
+          "x": -180,
+          "y": 2700
+        },
+        "1164745fc5f29b56": {
+          "x": -180,
+          "y": 2940
+        },
+        "c8f929328de90f0b": {
+          "x": -700,
+          "y": 2880
+        },
+        "3b88d29e901d40b0": {
+          "x": -440,
+          "y": 2900
+        },
+        "efaa31520e357c09": {
+          "x": -720,
+          "y": 3160
+        },
+        "35010c6662bc2eca": {
+          "x": -460,
+          "y": 3180
+        },
+        "32d9a5e8fb6bb65a": {
+          "x": 2240,
+          "y": 1720
+        },
+        "6fb40c78543ac4a5": {
+          "x": 2240,
+          "y": 2100
+        },
+        "956efc2327bd879d": {
+          "x": 1940,
+          "y": 1720
+        },
+        "9437809f42e3558a": {
+          "x": 1920,
+          "y": 1940
+        },
+        "c5e693780e16420d": {
+          "x": 1500,
+          "y": 2020
+        },
+        "c20962dd75add786": {
+          "x": 2180,
+          "y": 1380
+        },
+        "cd98b1a293b7aaee": {
+          "x": 2140,
+          "y": 2620
+        },
+        "92ba96d2147d2ed7": {
+          "x": 2140,
+          "y": 3000
+        },
+        "fc95e9cb5153424a": {
+          "x": 1860,
+          "y": 2620
+        },
+        "dc23e150ff85b5da": {
+          "x": 1860,
+          "y": 2840
+        },
+        "919f5ebc5974a194": {
+          "x": 1600,
+          "y": 2620
+        },
+        "374cdc8584875a23": {
+          "x": 1020,
+          "y": 3160
+        },
+        "be55b90993aa9932": {
+          "x": 1300,
+          "y": 3240
+        },
+        "bd02072ed3c7397b": {
+          "x": 1600,
+          "y": 3040
+        },
+        "916cc9b3976faa78": {
+          "x": 1300,
+          "y": 2980
+        },
+        "25bf52ef1f9646ec": {
+          "x": 280,
+          "y": 160
+        },
+        "68f17fbd846626a6": {
+          "x": -260,
+          "y": 180
+        },
+        "c5012aad9fb1f548": {
+          "x": 0,
+          "y": 180
+        }
+      }
+    }
+  }
+}
