@@ -151,6 +151,68 @@
           "id": "0a1b015b8ced6c5d",
           "name": "Union",
           "data": {}
+        },
+        {
+          "id": "33b3983c902c8b4f",
+          "name": "MarkerNode",
+          "data": {}
+        },
+        {
+          "id": "18aac148cc36bd52",
+          "name": "MarkerNode",
+          "data": {}
+        },
+        {
+          "id": "4e058a75cb82cce9",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "main_1",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "11a9ac9efa98529c",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "main_2",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "ae8a1721a28b7bb6",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              2
+            ]
+          }
+        },
+        {
+          "id": "a750c64bb6b3302c",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              3
+            ]
+          }
+        },
+        {
+          "id": "88967692f7e9a59c",
+          "name": "Difference",
+          "data": {}
+        },
+        {
+          "id": "3b38fee359f7a38b",
+          "name": "Difference",
+          "data": {}
         }
       ],
       "connections": [
@@ -176,18 +238,6 @@
           "source": "5a2a512ce9d0614a",
           "sourceOutput": "expr",
           "target": "8c4f761aa4adc8cd",
-          "targetInput": "expr"
-        },
-        {
-          "source": "759756b0a93c59e4",
-          "sourceOutput": "expr",
-          "target": "5e6136a4d9d16b05",
-          "targetInput": "expr"
-        },
-        {
-          "source": "3046bcac773e9e49",
-          "sourceOutput": "expr",
-          "target": "d1743d26218bb56d",
           "targetInput": "expr"
         },
         {
@@ -230,6 +280,66 @@
           "source": "0a1b015b8ced6c5d",
           "sourceOutput": "expr",
           "target": "2ac9881ecebe0fc8",
+          "targetInput": "expr"
+        },
+        {
+          "source": "759756b0a93c59e4",
+          "sourceOutput": "expr",
+          "target": "33b3983c902c8b4f",
+          "targetInput": "expr"
+        },
+        {
+          "source": "33b3983c902c8b4f",
+          "sourceOutput": "expr",
+          "target": "5e6136a4d9d16b05",
+          "targetInput": "expr"
+        },
+        {
+          "source": "3046bcac773e9e49",
+          "sourceOutput": "expr",
+          "target": "18aac148cc36bd52",
+          "targetInput": "expr"
+        },
+        {
+          "source": "18aac148cc36bd52",
+          "sourceOutput": "expr",
+          "target": "d1743d26218bb56d",
+          "targetInput": "expr"
+        },
+        {
+          "source": "ae8a1721a28b7bb6",
+          "sourceOutput": "expr",
+          "target": "4e058a75cb82cce9",
+          "targetInput": "expr"
+        },
+        {
+          "source": "a750c64bb6b3302c",
+          "sourceOutput": "expr",
+          "target": "11a9ac9efa98529c",
+          "targetInput": "expr"
+        },
+        {
+          "source": "3dc68f536f28b973",
+          "sourceOutput": "expr",
+          "target": "88967692f7e9a59c",
+          "targetInput": "expr1"
+        },
+        {
+          "source": "88967692f7e9a59c",
+          "sourceOutput": "expr",
+          "target": "ae8a1721a28b7bb6",
+          "targetInput": "expr"
+        },
+        {
+          "source": "f971e5040ed817d3",
+          "sourceOutput": "expr",
+          "target": "3b38fee359f7a38b",
+          "targetInput": "expr1"
+        },
+        {
+          "source": "3b38fee359f7a38b",
+          "sourceOutput": "expr",
+          "target": "a750c64bb6b3302c",
           "targetInput": "expr"
         }
       ],
@@ -297,6 +407,38 @@
         "0a1b015b8ced6c5d": {
           "x": -420,
           "y": 0
+        },
+        "33b3983c902c8b4f": {
+          "x": 1160,
+          "y": 580
+        },
+        "18aac148cc36bd52": {
+          "x": 2260,
+          "y": 640
+        },
+        "4e058a75cb82cce9": {
+          "x": 1520,
+          "y": 1020
+        },
+        "11a9ac9efa98529c": {
+          "x": 2640,
+          "y": 1140
+        },
+        "ae8a1721a28b7bb6": {
+          "x": 1500,
+          "y": 1400
+        },
+        "a750c64bb6b3302c": {
+          "x": 2640,
+          "y": 1520
+        },
+        "88967692f7e9a59c": {
+          "x": 1220,
+          "y": 1080
+        },
+        "3b38fee359f7a38b": {
+          "x": 2380,
+          "y": 1180
         }
       }
     }
