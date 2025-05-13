@@ -54,7 +54,7 @@
           "name": "ApplyHeight",
           "data": {
             "height": [
-              3
+              2.5
             ]
           }
         },
@@ -69,7 +69,7 @@
           "data": {
             "origin": [
               0,
-              1,
+              0.7,
               0
             ],
             "normal": [
@@ -120,7 +120,7 @@
           "name": "ApplyHeight",
           "data": {
             "height": [
-              3
+              2
             ]
           }
         },
@@ -128,14 +128,14 @@
           "id": "105a6498b1500f6f",
           "name": "NamedGeometry",
           "data": {
-            "name": "mat_2"
+            "name": "main_1"
           }
         },
         {
           "id": "81f9237304b7dd10",
           "name": "NamedGeometry",
           "data": {
-            "name": "mat_2"
+            "name": "main_2"
           }
         },
         {
@@ -153,7 +153,17 @@
           "data": {}
         },
         {
-          "id": "603fab2055777659",
+          "id": "33b3983c902c8b4f",
+          "name": "MarkerNode",
+          "data": {}
+        },
+        {
+          "id": "18aac148cc36bd52",
+          "name": "MarkerNode",
+          "data": {}
+        },
+        {
+          "id": "4e058a75cb82cce9",
           "name": "RegisterGeometry",
           "data": {
             "name": "main_1",
@@ -165,16 +175,7 @@
           }
         },
         {
-          "id": "80d5f5d24166b8eb",
-          "name": "SetMaterial",
-          "data": {
-            "material": [
-              2
-            ]
-          }
-        },
-        {
-          "id": "88bd2e212ed908fa",
+          "id": "11a9ac9efa98529c",
           "name": "RegisterGeometry",
           "data": {
             "name": "main_2",
@@ -186,7 +187,16 @@
           }
         },
         {
-          "id": "7c01c01a205a2522",
+          "id": "ae8a1721a28b7bb6",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              2
+            ]
+          }
+        },
+        {
+          "id": "a750c64bb6b3302c",
           "name": "SetMaterial",
           "data": {
             "material": [
@@ -195,17 +205,17 @@
           }
         },
         {
-          "id": "b0868ad7c586cc52",
+          "id": "88967692f7e9a59c",
           "name": "Difference",
           "data": {}
         },
         {
-          "id": "3a8327768b7ef8fe",
+          "id": "3b38fee359f7a38b",
           "name": "Difference",
           "data": {}
         },
         {
-          "id": "5c0c9d8050d21b3a",
+          "id": "9c892bf9a7693a33",
           "name": "RegisterGeometry",
           "data": {
             "name": "subtr_1",
@@ -217,46 +227,7 @@
           }
         },
         {
-          "id": "a4299b8af2d807da",
-          "name": "SetMaterial",
-          "data": {
-            "material": [
-              4
-            ]
-          }
-        },
-        {
-          "id": "41fe924abd177c9c",
-          "name": "LinkedHeightField3D",
-          "data": {}
-        },
-        {
-          "id": "9adfff33636a59a1",
-          "name": "ApplyHeight",
-          "data": {
-            "height": [
-              2
-            ]
-          }
-        },
-        {
-          "id": "70ec1894fd13df9a",
-          "name": "Plane3D",
-          "data": {
-            "origin": [
-              -0.6,
-              1,
-              -0.6
-            ],
-            "normal": [
-              1,
-              0,
-              1
-            ]
-          }
-        },
-        {
-          "id": "02a1b69035872bf4",
+          "id": "bd4e28537c995518",
           "name": "PolyLine2D",
           "data": {
             "points": [
@@ -267,102 +238,62 @@
               ],
               [
                 1,
-                0.5303,
+                0.3765,
                 0
               ],
               [
                 0.8,
-                0.5303,
+                0.3765,
                 0
               ],
               [
                 0.8,
-                0.4419,
+                0.18838,
                 0
               ],
               [
-                1.66,
-                0.4419,
+                1.5,
+                0.18838,
+                0
+              ],
+              [
+                1.5,
+                0.25,
                 0
               ],
               [
                 2,
-                0.4861,
+                0.18838,
                 0
               ],
               [
                 2,
-                0.2209,
+                -0.1883,
                 0
               ],
               [
-                1.66,
-                0.2651,
+                1.5,
+                -0.25,
+                0
+              ],
+              [
+                1.5,
+                -0.18838,
                 0
               ],
               [
                 0.8,
-                0.2651,
+                -0.18838,
                 0
               ],
               [
                 0.8,
-                0.1767,
+                -0.3765,
                 0
               ],
               [
                 1,
-                0.1767,
-                0
-              ],
-              [
-                1,
-                -0.1767,
-                0
-              ],
-              [
-                1.2,
-                -0.1767,
-                0
-              ],
-              [
-                1.2,
-                -0.2651,
-                0
-              ],
-              [
-                0.33,
-                -0.2651,
-                0
-              ],
-              [
-                0,
-                -0.2209,
-                0
-              ],
-              [
-                0,
-                -0.4861,
-                0
-              ],
-              [
-                0.33,
-                -0.4419,
-                0
-              ],
-              [
-                1.2,
-                -0.4419,
-                0
-              ],
-              [
-                1.2,
-                -0.5303,
-                0
-              ],
-              [
-                1,
-                -0.5303,
+                -0.3765,
                 0
               ],
               [
@@ -371,12 +302,12 @@
                 0
               ],
               [
-                2.5,
+                2.7,
                 -1,
                 0
               ],
               [
-                2.5,
+                2.7,
                 1,
                 0
               ]
@@ -384,21 +315,53 @@
           }
         },
         {
-          "id": "320b1ec35d209f42",
+          "id": "0736ea4dcb7a5313",
+          "name": "Plane3D",
+          "data": {
+            "origin": [
+              -0.6,
+              0,
+              -0.6
+            ],
+            "normal": [
+              1,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "id": "563522e48f1946a1",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              4
+            ]
+          }
+        },
+        {
+          "id": "3fb451daf70c7e05",
+          "name": "ApplyHeight",
+          "data": {
+            "height": [
+              2
+            ]
+          }
+        },
+        {
+          "id": "3dc63f93af125886",
+          "name": "LinkedHeightField3D",
+          "data": {}
+        },
+        {
+          "id": "f8d1c2d7e2bd58c8",
           "name": "NamedGeometry",
           "data": {
             "name": "subtr_2"
           }
         },
         {
-          "id": "9ce76a9227d2ae06",
-          "name": "NamedGeometry",
-          "data": {
-            "name": "main_2"
-          }
-        },
-        {
-          "id": "56b7824fa2f0f7ec",
+          "id": "d543324fab9aec15",
           "name": "RegisterGeometry",
           "data": {
             "name": "subtr_2",
@@ -410,7 +373,7 @@
           }
         },
         {
-          "id": "fca3c93fd74ed177",
+          "id": "3bf99b8f3947c2b1",
           "name": "SetMaterial",
           "data": {
             "material": [
@@ -419,7 +382,12 @@
           }
         },
         {
-          "id": "df3ea1cdeb02eb80",
+          "id": "c2e4aae9af49a15f",
+          "name": "LinkedHeightField3D",
+          "data": {}
+        },
+        {
+          "id": "9f8d167c2b01923b",
           "name": "ApplyHeight",
           "data": {
             "height": [
@@ -428,12 +396,7 @@
           }
         },
         {
-          "id": "ce3c12781e35affa",
-          "name": "LinkedHeightField3D",
-          "data": {}
-        },
-        {
-          "id": "2d8b65e6031d37fb",
+          "id": "a839fd5ea5d10df9",
           "name": "PolyLine2D",
           "data": {
             "points": [
@@ -444,102 +407,62 @@
               ],
               [
                 1,
-                0.5303,
+                0.3765,
                 0
               ],
               [
                 0.8,
-                0.5303,
+                0.3765,
                 0
               ],
               [
                 0.8,
-                0.4419,
+                0.18838,
                 0
               ],
               [
-                1.66,
-                0.4419,
+                1.5,
+                0.18838,
+                0
+              ],
+              [
+                1.5,
+                0.25,
                 0
               ],
               [
                 2,
-                0.4861,
+                0.18838,
                 0
               ],
               [
                 2,
-                0.2209,
+                -0.1883,
                 0
               ],
               [
-                1.66,
-                0.2651,
+                1.5,
+                -0.25,
+                0
+              ],
+              [
+                1.5,
+                -0.18838,
                 0
               ],
               [
                 0.8,
-                0.2651,
+                -0.18838,
                 0
               ],
               [
                 0.8,
-                0.1767,
+                -0.3765,
                 0
               ],
               [
                 1,
-                0.1767,
-                0
-              ],
-              [
-                1,
-                -0.1767,
-                0
-              ],
-              [
-                1.2,
-                -0.1767,
-                0
-              ],
-              [
-                1.2,
-                -0.2651,
-                0
-              ],
-              [
-                0.33,
-                -0.2651,
-                0
-              ],
-              [
-                0,
-                -0.2209,
-                0
-              ],
-              [
-                0,
-                -0.4861,
-                0
-              ],
-              [
-                0.33,
-                -0.4419,
-                0
-              ],
-              [
-                1.2,
-                -0.4419,
-                0
-              ],
-              [
-                1.2,
-                -0.5303,
-                0
-              ],
-              [
-                1,
-                -0.5303,
+                -0.3765,
                 0
               ],
               [
@@ -548,12 +471,12 @@
                 0
               ],
               [
-                -0.5,
+                0.3,
                 -1,
                 0
               ],
               [
-                -0.5,
+                0.3,
                 1,
                 0
               ]
@@ -561,14 +484,7 @@
           }
         },
         {
-          "id": "b914c501e28a1b83",
-          "name": "NamedGeometry",
-          "data": {
-            "name": "main_1"
-          }
-        },
-        {
-          "id": "1fd1ce845786c376",
+          "id": "b71c161d3979ede8",
           "name": "Translate3D",
           "data": {
             "param": [
@@ -579,12 +495,12 @@
           }
         },
         {
-          "id": "08fb8b9b779e0d3a",
+          "id": "93f634e21a0ee29a",
           "name": "Union",
           "data": {}
         },
         {
-          "id": "5952601d0c7633ab",
+          "id": "f376ba847b82539e",
           "name": "RegisterState",
           "data": {
             "state": [
@@ -619,18 +535,6 @@
           "targetInput": "expr"
         },
         {
-          "source": "759756b0a93c59e4",
-          "sourceOutput": "expr",
-          "target": "5e6136a4d9d16b05",
-          "targetInput": "expr"
-        },
-        {
-          "source": "3046bcac773e9e49",
-          "sourceOutput": "expr",
-          "target": "d1743d26218bb56d",
-          "targetInput": "expr"
-        },
-        {
           "source": "d1743d26218bb56d",
           "sourceOutput": "expr",
           "target": "f971e5040ed817d3",
@@ -655,153 +559,177 @@
           "targetInput": "expr"
         },
         {
+          "source": "759756b0a93c59e4",
+          "sourceOutput": "expr",
+          "target": "33b3983c902c8b4f",
+          "targetInput": "expr"
+        },
+        {
+          "source": "33b3983c902c8b4f",
+          "sourceOutput": "expr",
+          "target": "5e6136a4d9d16b05",
+          "targetInput": "expr"
+        },
+        {
+          "source": "3046bcac773e9e49",
+          "sourceOutput": "expr",
+          "target": "18aac148cc36bd52",
+          "targetInput": "expr"
+        },
+        {
+          "source": "18aac148cc36bd52",
+          "sourceOutput": "expr",
+          "target": "d1743d26218bb56d",
+          "targetInput": "expr"
+        },
+        {
+          "source": "ae8a1721a28b7bb6",
+          "sourceOutput": "expr",
+          "target": "4e058a75cb82cce9",
+          "targetInput": "expr"
+        },
+        {
+          "source": "a750c64bb6b3302c",
+          "sourceOutput": "expr",
+          "target": "11a9ac9efa98529c",
+          "targetInput": "expr"
+        },
+        {
+          "source": "3dc68f536f28b973",
+          "sourceOutput": "expr",
+          "target": "88967692f7e9a59c",
+          "targetInput": "expr1"
+        },
+        {
+          "source": "88967692f7e9a59c",
+          "sourceOutput": "expr",
+          "target": "ae8a1721a28b7bb6",
+          "targetInput": "expr"
+        },
+        {
+          "source": "f971e5040ed817d3",
+          "sourceOutput": "expr",
+          "target": "3b38fee359f7a38b",
+          "targetInput": "expr1"
+        },
+        {
+          "source": "3b38fee359f7a38b",
+          "sourceOutput": "expr",
+          "target": "a750c64bb6b3302c",
+          "targetInput": "expr"
+        },
+        {
+          "source": "563522e48f1946a1",
+          "sourceOutput": "expr",
+          "target": "9c892bf9a7693a33",
+          "targetInput": "expr"
+        },
+        {
+          "source": "3fb451daf70c7e05",
+          "sourceOutput": "expr",
+          "target": "3dc63f93af125886",
+          "targetInput": "apply_height"
+        },
+        {
+          "source": "0736ea4dcb7a5313",
+          "sourceOutput": "expr",
+          "target": "3dc63f93af125886",
+          "targetInput": "plane"
+        },
+        {
+          "source": "3dc63f93af125886",
+          "sourceOutput": "expr",
+          "target": "563522e48f1946a1",
+          "targetInput": "expr"
+        },
+        {
+          "source": "bd4e28537c995518",
+          "sourceOutput": "expr",
+          "target": "3fb451daf70c7e05",
+          "targetInput": "expr"
+        },
+        {
+          "source": "0736ea4dcb7a5313",
+          "sourceOutput": "expr",
+          "target": "c2e4aae9af49a15f",
+          "targetInput": "plane"
+        },
+        {
+          "source": "9f8d167c2b01923b",
+          "sourceOutput": "expr",
+          "target": "c2e4aae9af49a15f",
+          "targetInput": "apply_height"
+        },
+        {
+          "source": "c2e4aae9af49a15f",
+          "sourceOutput": "expr",
+          "target": "3bf99b8f3947c2b1",
+          "targetInput": "expr"
+        },
+        {
+          "source": "3bf99b8f3947c2b1",
+          "sourceOutput": "expr",
+          "target": "d543324fab9aec15",
+          "targetInput": "expr"
+        },
+        {
+          "source": "a839fd5ea5d10df9",
+          "sourceOutput": "expr",
+          "target": "9f8d167c2b01923b",
+          "targetInput": "expr"
+        },
+        {
+          "source": "3dc63f93af125886",
+          "sourceOutput": "expr",
+          "target": "88967692f7e9a59c",
+          "targetInput": "expr2"
+        },
+        {
+          "source": "c2e4aae9af49a15f",
+          "sourceOutput": "expr",
+          "target": "3b38fee359f7a38b",
+          "targetInput": "expr2"
+        },
+        {
+          "source": "105a6498b1500f6f",
+          "sourceOutput": "expr",
+          "target": "0a1b015b8ced6c5d",
+          "targetInput": "expr"
+        },
+        {
+          "source": "81f9237304b7dd10",
+          "sourceOutput": "expr",
+          "target": "0a1b015b8ced6c5d",
+          "targetInput": "expr"
+        },
+        {
+          "source": "105a6498b1500f6f",
+          "sourceOutput": "expr",
+          "target": "93f634e21a0ee29a",
+          "targetInput": "expr"
+        },
+        {
+          "source": "81f9237304b7dd10",
+          "sourceOutput": "expr",
+          "target": "b71c161d3979ede8",
+          "targetInput": "expr"
+        },
+        {
+          "source": "b71c161d3979ede8",
+          "sourceOutput": "expr",
+          "target": "93f634e21a0ee29a",
+          "targetInput": "expr"
+        },
+        {
           "source": "0a1b015b8ced6c5d",
           "sourceOutput": "expr",
           "target": "2ac9881ecebe0fc8",
           "targetInput": "expr"
         },
         {
-          "source": "80d5f5d24166b8eb",
+          "source": "93f634e21a0ee29a",
           "sourceOutput": "expr",
-          "target": "603fab2055777659",
-          "targetInput": "expr"
-        },
-        {
-          "source": "7c01c01a205a2522",
-          "sourceOutput": "expr",
-          "target": "88bd2e212ed908fa",
-          "targetInput": "expr"
-        },
-        {
-          "source": "b0868ad7c586cc52",
-          "sourceOutput": "expr",
-          "target": "7c01c01a205a2522",
-          "targetInput": "expr"
-        },
-        {
-          "source": "f971e5040ed817d3",
-          "sourceOutput": "expr",
-          "target": "b0868ad7c586cc52",
-          "targetInput": "expr1"
-        },
-        {
-          "source": "3a8327768b7ef8fe",
-          "sourceOutput": "expr",
-          "target": "80d5f5d24166b8eb",
-          "targetInput": "expr"
-        },
-        {
-          "source": "3dc68f536f28b973",
-          "sourceOutput": "expr",
-          "target": "3a8327768b7ef8fe",
-          "targetInput": "expr1"
-        },
-        {
-          "source": "a4299b8af2d807da",
-          "sourceOutput": "expr",
-          "target": "5c0c9d8050d21b3a",
-          "targetInput": "expr"
-        },
-        {
-          "source": "9adfff33636a59a1",
-          "sourceOutput": "expr",
-          "target": "41fe924abd177c9c",
-          "targetInput": "apply_height"
-        },
-        {
-          "source": "41fe924abd177c9c",
-          "sourceOutput": "expr",
-          "target": "a4299b8af2d807da",
-          "targetInput": "expr"
-        },
-        {
-          "source": "70ec1894fd13df9a",
-          "sourceOutput": "expr",
-          "target": "41fe924abd177c9c",
-          "targetInput": "plane"
-        },
-        {
-          "source": "02a1b69035872bf4",
-          "sourceOutput": "expr",
-          "target": "9adfff33636a59a1",
-          "targetInput": "expr"
-        },
-        {
-          "source": "41fe924abd177c9c",
-          "sourceOutput": "expr",
-          "target": "3a8327768b7ef8fe",
-          "targetInput": "expr2"
-        },
-        {
-          "source": "df3ea1cdeb02eb80",
-          "sourceOutput": "expr",
-          "target": "ce3c12781e35affa",
-          "targetInput": "apply_height"
-        },
-        {
-          "source": "ce3c12781e35affa",
-          "sourceOutput": "expr",
-          "target": "fca3c93fd74ed177",
-          "targetInput": "expr"
-        },
-        {
-          "source": "fca3c93fd74ed177",
-          "sourceOutput": "expr",
-          "target": "56b7824fa2f0f7ec",
-          "targetInput": "expr"
-        },
-        {
-          "source": "70ec1894fd13df9a",
-          "sourceOutput": "expr",
-          "target": "ce3c12781e35affa",
-          "targetInput": "plane"
-        },
-        {
-          "source": "2d8b65e6031d37fb",
-          "sourceOutput": "expr",
-          "target": "df3ea1cdeb02eb80",
-          "targetInput": "expr"
-        },
-        {
-          "source": "ce3c12781e35affa",
-          "sourceOutput": "expr",
-          "target": "b0868ad7c586cc52",
-          "targetInput": "expr2"
-        },
-        {
-          "source": "9ce76a9227d2ae06",
-          "sourceOutput": "expr",
-          "target": "1fd1ce845786c376",
-          "targetInput": "expr"
-        },
-        {
-          "source": "9ce76a9227d2ae06",
-          "sourceOutput": "expr",
-          "target": "0a1b015b8ced6c5d",
-          "targetInput": "expr"
-        },
-        {
-          "source": "b914c501e28a1b83",
-          "sourceOutput": "expr",
-          "target": "0a1b015b8ced6c5d",
-          "targetInput": "expr"
-        },
-        {
-          "source": "08fb8b9b779e0d3a",
-          "sourceOutput": "expr",
-          "target": "5952601d0c7633ab",
-          "targetInput": "expr"
-        },
-        {
-          "source": "1fd1ce845786c376",
-          "sourceOutput": "expr",
-          "target": "08fb8b9b779e0d3a",
-          "targetInput": "expr"
-        },
-        {
-          "source": "b914c501e28a1b83",
-          "sourceOutput": "expr",
-          "target": "08fb8b9b779e0d3a",
+          "target": "f376ba847b82539e",
           "targetInput": "expr"
         }
       ],
@@ -870,97 +798,97 @@
           "x": -420,
           "y": 0
         },
-        "603fab2055777659": {
-          "x": 1420,
-          "y": 900
+        "33b3983c902c8b4f": {
+          "x": 1160,
+          "y": 580
         },
-        "80d5f5d24166b8eb": {
-          "x": 1420,
-          "y": 1320
+        "18aac148cc36bd52": {
+          "x": 2260,
+          "y": 640
         },
-        "88bd2e212ed908fa": {
-          "x": 2540,
-          "y": 940
+        "4e058a75cb82cce9": {
+          "x": 1520,
+          "y": 1020
         },
-        "7c01c01a205a2522": {
-          "x": 2540,
-          "y": 1320
+        "11a9ac9efa98529c": {
+          "x": 2640,
+          "y": 1140
         },
-        "b0868ad7c586cc52": {
-          "x": 2180,
-          "y": 960
+        "ae8a1721a28b7bb6": {
+          "x": 1500,
+          "y": 1400
         },
-        "3a8327768b7ef8fe": {
-          "x": 1080,
-          "y": 960
+        "a750c64bb6b3302c": {
+          "x": 2640,
+          "y": 1520
         },
-        "5c0c9d8050d21b3a": {
-          "x": 1560,
-          "y": 1740
+        "88967692f7e9a59c": {
+          "x": 1220,
+          "y": 1080
         },
-        "a4299b8af2d807da": {
-          "x": 1560,
-          "y": 2140
+        "3b38fee359f7a38b": {
+          "x": 2380,
+          "y": 1180
         },
-        "41fe924abd177c9c": {
+        "9c892bf9a7693a33": {
+          "x": 1600,
+          "y": 1940
+        },
+        "bd4e28537c995518": {
+          "x": 480,
+          "y": 2360
+        },
+        "0736ea4dcb7a5313": {
+          "x": 820,
+          "y": 1840
+        },
+        "563522e48f1946a1": {
+          "x": 1600,
+          "y": 2340
+        },
+        "3fb451daf70c7e05": {
           "x": 1260,
-          "y": 1760
+          "y": 2200
         },
-        "9adfff33636a59a1": {
-          "x": 1260,
-          "y": 2040
+        "3dc63f93af125886": {
+          "x": 1280,
+          "y": 1940
         },
-        "70ec1894fd13df9a": {
-          "x": 880,
-          "y": 1680
+        "f8d1c2d7e2bd58c8": {
+          "x": -540,
+          "y": 500
         },
-        "02a1b69035872bf4": {
-          "x": 700,
-          "y": 2240
-        },
-        "320b1ec35d209f42": {
-          "x": -380,
-          "y": 860
-        },
-        "9ce76a9227d2ae06": {
-          "x": -380,
-          "y": 560
-        },
-        "56b7824fa2f0f7ec": {
-          "x": 2800,
-          "y": 1880
-        },
-        "fca3c93fd74ed177": {
+        "d543324fab9aec15": {
           "x": 2820,
-          "y": 2300
+          "y": 2060
         },
-        "df3ea1cdeb02eb80": {
-          "x": 2440,
-          "y": 2140
+        "3bf99b8f3947c2b1": {
+          "x": 2820,
+          "y": 2480
         },
-        "ce3c12781e35affa": {
-          "x": 2440,
-          "y": 1900
+        "c2e4aae9af49a15f": {
+          "x": 2380,
+          "y": 1980
         },
-        "2d8b65e6031d37fb": {
-          "x": 1840,
-          "y": 2500
+        "9f8d167c2b01923b": {
+          "x": 2400,
+          "y": 2220
         },
-        "b914c501e28a1b83": {
-          "x": -640,
-          "y": 560
+        "a839fd5ea5d10df9": {
+          "x": 1800,
+          "y": 2560
         },
-        "1fd1ce845786c376": {
-          "x": 60,
-          "y": 760
+        "b71c161d3979ede8": {
+          "x": -120,
+          "y": 340
         },
-        "08fb8b9b779e0d3a": {
-          "x": 180,
-          "y": 460
+        "93f634e21a0ee29a": {
+          "x": 140,
+          "y": 220
         },
-        "5952601d0c7633ab": {
+        "f376ba847b82539e": {
           "x": 500,
-          "y": 380
+          "y": 100
         }
       }
     }
