@@ -380,7 +380,7 @@
             "origin": [
               1.501,
               1,
-              0.15
+              0.125
             ],
             "normal": [
               -1,
@@ -514,7 +514,33 @@
           "data": {}
         },
         {
-          "id": "016ac96c3b363f74",
+          "id": "ec3fd870cfe81006",
+          "name": "RegisterGeometry",
+          "data": {
+            "name": "base",
+            "bbox": [
+              2,
+              4,
+              2
+            ]
+          }
+        },
+        {
+          "id": "40f66d3eab6fe45c",
+          "name": "SetMaterial",
+          "data": {
+            "material": [
+              2
+            ]
+          }
+        },
+        {
+          "id": "f07ca6d440dcfadf",
+          "name": "Intersection",
+          "data": {}
+        },
+        {
+          "id": "9eaba0dc246e29c8",
           "name": "RegisterState",
           "data": {
             "state": [
@@ -807,12 +833,6 @@
           "targetInput": "expr"
         },
         {
-          "source": "2b65cdea981e83e3",
-          "sourceOutput": "expr",
-          "target": "3c51e4a6656bc1bd",
-          "targetInput": "expr"
-        },
-        {
           "source": "2c6c35fccd5a49ff",
           "sourceOutput": "expr",
           "target": "3c51e4a6656bc1bd",
@@ -837,9 +857,39 @@
           "targetInput": "expr"
         },
         {
+          "source": "40f66d3eab6fe45c",
+          "sourceOutput": "expr",
+          "target": "ec3fd870cfe81006",
+          "targetInput": "expr"
+        },
+        {
+          "source": "f07ca6d440dcfadf",
+          "sourceOutput": "expr",
+          "target": "40f66d3eab6fe45c",
+          "targetInput": "expr"
+        },
+        {
+          "source": "9ed7cca406bf191a",
+          "sourceOutput": "expr",
+          "target": "f07ca6d440dcfadf",
+          "targetInput": "expr"
+        },
+        {
+          "source": "ac232b4e10d266cd",
+          "sourceOutput": "expr",
+          "target": "f07ca6d440dcfadf",
+          "targetInput": "expr"
+        },
+        {
           "source": "8ec6b54ef3052c81",
           "sourceOutput": "expr",
-          "target": "016ac96c3b363f74",
+          "target": "9eaba0dc246e29c8",
+          "targetInput": "expr"
+        },
+        {
+          "source": "2b65cdea981e83e3",
+          "sourceOutput": "expr",
+          "target": "3c51e4a6656bc1bd",
           "targetInput": "expr"
         }
       ],
@@ -873,8 +923,8 @@
           "y": 400
         },
         "5fe5856671dfed20": {
-          "x": 960,
-          "y": 1160
+          "x": 920,
+          "y": 1020
         },
         "c442a0d8fabb44db": {
           "x": 2220,
@@ -1072,9 +1122,21 @@
           "x": 2360,
           "y": 1780
         },
-        "016ac96c3b363f74": {
-          "x": 1060,
-          "y": 420
+        "ec3fd870cfe81006": {
+          "x": 3180,
+          "y": 460
+        },
+        "40f66d3eab6fe45c": {
+          "x": 3180,
+          "y": 860
+        },
+        "f07ca6d440dcfadf": {
+          "x": 2800,
+          "y": 700
+        },
+        "9eaba0dc246e29c8": {
+          "x": 1020,
+          "y": 360
         }
       }
     },
